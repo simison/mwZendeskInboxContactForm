@@ -1,6 +1,6 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"zendesk-inbox-contact-form-desc": "Adds a Zendesk contact form to each page."
+  "@metadata": {
+    "authors": []
+  },
+  "zendesk-inbox-contact-form-desc": "Adds a Zendesk contact form to each page."
 }

@@ -1,21 +1,21 @@
 {
-	"name": "Zendesk Contact Form",
-	"author": "Mikael Korpela",
-	"descriptionmsg": "zendesk-inbox-contact-form-desc",
-	"url": "https://www.mediawiki.org/wiki/Extension:ZendeskInboxContactForm",
-	"type": "other",
+  "name": "Zendesk Contact Form",
+  "author": "Mikael Korpela",
+  "descriptionmsg": "zendesk-inbox-contact-form-desc",
+  "url": "https://github.com/simison/mwZendeskInboxContactForm",
+  "type": "other",
   "license-name": "GPL-2.0+",
-	"MessagesDirs": {
-		"ZendeskInboxContactForm": [
-			"i18n"
-		]
-	},
-	"Hooks": {
-		"UnknownAction": "ContentAction::onUnknownAction",
-		"SkinAfterBottomScripts": "ZendeskInboxContactForm::onSkinAfterBottomScripts"
-	},
-	"AutoloadClasses": {
-		"ZendeskInboxContactForm": "ZendeskInboxContactForm.php"
-	},
-	"manifest_version": 2
+  "MessagesDirs": {
+    "ZendeskInboxContactForm": [
+      "i18n"
+    ]
+  },
+  "Hooks": {
+    "UnknownAction": "ContentAction::onUnknownAction",
+    "SkinAfterBottomScripts": "ZendeskInboxContactForm::onSkinAfterBottomScripts"
+  },
+  "AutoloadClasses": {
+    "ZendeskInboxContactForm": "ZendeskInboxContactForm.php"
+  },
+  "manifest_version": 2
 }
