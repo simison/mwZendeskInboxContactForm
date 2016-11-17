@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"zendesk-inbox-contact-form-desc": "{{desc|what=extension|name=ZendeskInboxContactForm|url=}}"
+}
